@@ -24,6 +24,6 @@ def printer
   
   test_var = ""
   
-  binder.pry
+  binding.pry
   
 end
