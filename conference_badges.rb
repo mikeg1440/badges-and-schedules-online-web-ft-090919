@@ -20,4 +20,10 @@ def assign_rooms(attendees)
   room_assignments
 end
 
-def printer()
+def printer
+  
+  test_var = ""
+  
+  binder.pry
+  
+end
