@@ -27,5 +27,7 @@ def printer(attendees)
   room_assignments = assign_rooms(attendees)
 
   batch_badges_with_room_assignments = batch_badges + room_assignments
+  
+  batch_badges_with_room_assignments.each{|assignment| puts assignment}
 
 end
